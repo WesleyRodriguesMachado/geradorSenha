@@ -1,6 +1,6 @@
 import { View, Text, StyleSheet } from "react-native";
 
-export function passwords(){
+export function Passwords(){
     return(
         <View>
             <Text>Minhas Senhas</Text>
@@ -8,6 +8,6 @@ export function passwords(){
     )
 
     const styles = StyleSheet.create({
-        
+
     })
 }
