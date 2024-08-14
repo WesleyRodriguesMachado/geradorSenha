@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { View, Text, StyleSheet, Image, TouchableOpacity, Modal} from "react-native";
+import { View, Text, StyleSheet, Image, TouchableOpacity, Modal } from "react-native";
 import Slider from "@react-native-community/slider";
 import { ModalPassword } from "./src/components/modal";
 
@@ -46,9 +46,9 @@ export default function App() {
       </TouchableOpacity>
 
       <Modal visible={modalVisible} animationType="fade" transparent={true}>
-        <ModalPassword/>
+        <ModalPassword password={passwordValue} handleClose={() => setModalVisible(false)} />
 
-       
+
       </Modal>
 
     </View>
